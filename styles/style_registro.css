@@ -1,0 +1,122 @@
+/* font-tamily */
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://images.pexels.com/photos/4100130/pexels-photo-4100130.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    min-width: 320px;
+ }
+.login{
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 90px repeat(6,auto);
+    background-color: rgba(0,0,0,0.7);  
+    border-radius: 10px;
+    border: none;
+    font-family: 'Itim', cursive;
+    color: #fff;
+}
+.logo{
+    grid-column: 1/-7;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.logo img{
+    height: 120px;
+    width: 100px;
+}
+.bienvenido{
+    font-size: 2em;
+    grid-column: 1/-7;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.user{
+    grid-column: 1/-3;
+    text-align: left;
+    padding: 5px  10px;
+    margin: 5px 10px;
+    border-radius: 5px;
+    border: none;
+}
+.correo{
+    grid-column: 1/-4;
+    text-align: left;
+    padding: 5px  10px;
+    margin: 5px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.password{
+    grid-column: 1/-5;
+    text-align: left;
+    padding: 5px  10px;
+    margin: 5px 10px;
+    border-radius: 5px;
+    border: none;
+}
+.btn{
+    grid-column: 1/-6;
+    text-align: center;
+    padding: 5px  10px;
+    margin: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background:  #2980b9 ;
+    font-family: 'Itim', cursive;
+    font-size: 20px;
+    color:  #212f3d ;
+}
+.btn:hover{
+    background: #154360;
+    color: #fff;
+}
+.textos{
+    grid-column:1/-3;
+    text-align: center;
+    padding: 5px  10px;
+    margin: 5px 10px;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: #267ca7; 
+}
+a:hover{
+    color:  #7fb3d5;
+
+}
+
+/* estilo para js el warning */
+
+.warnings{
+    text-align: center;
+    margin: auto;
+    color:  #f0753f ;
+    padding-top: 17px;
+    grid-column: 1/-7;
+}
